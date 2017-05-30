@@ -108,13 +108,13 @@ ghost_img = load_image("assets/enemies/ghost.png")
 ghost_images = [ghost_img]
 
 # Sounds
-JUMP_SOUND = pygame.mixer.Sound("assets/sounds/jump.wav")
-COIN_SOUND = pygame.mixer.Sound("assets/sounds/pickup_coin.wav")
-POWERUP_SOUND = pygame.mixer.Sound("assets/sounds/powerup.wav")
-HURT_SOUND = pygame.mixer.Sound("assets/sounds/hurt.ogg")
-DIE_SOUND = pygame.mixer.Sound("assets/sounds/death.wav")
-LEVELUP_SOUND = pygame.mixer.Sound("assets/sounds/Victory.ogg")
-GAMEWIN_SOUND = pygame.mixer.Sound("assets/sounds/GameWin!.wav")
+JUMP_SOUND = pygame.mixer.Sound("assets/sounds2/jump.wav")
+COIN_SOUND = pygame.mixer.Sound("assets/sounds2/pickup_coin.wav")
+POWERUP_SOUND = pygame.mixer.Sound("assets/sounds2/powerup.wav")
+HURT_SOUND = pygame.mixer.Sound("assets/sounds2/hurt.ogg")
+DIE_SOUND = pygame.mixer.Sound("assets/sounds2/death.wav")
+LEVELUP_SOUND = pygame.mixer.Sound("assets/sounds2/Victory.ogg")
+GAMEWIN_SOUND = pygame.mixer.Sound("assets/GameWin!.wav")
 
 class Entity(pygame.sprite.Sprite):
 
