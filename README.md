@@ -1,5 +1,5 @@
 ![Main character](zombie_idle.png)
-## Dependencies
+## What You'll Need
 ### Required
 - [Python 3](https://www.python.org/downloads/)
 - Pygame: `python3 -m pip install pygame`
@@ -38,5 +38,5 @@ Clear each level by gathering coins, killing enemies by jumping on them, and rea
 - Wasp: Getting hit deducts one heart, killing earns 1 generic point.
 
 ## Screenshots
-![Screenshot](screenshot1.PNG)
-![Screenshot](screenshot2.PNG)
+![Screenshot](gameplay1.PNG)
+![Screenshot](gameplay2.PNG)
