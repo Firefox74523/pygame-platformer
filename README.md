@@ -3,6 +3,7 @@
 ### Required
 - [Python 3](https://www.python.org/downloads/)
 - Pygame: `python3 -m pip install pygame`
+https://github.com/Firefox74523/pygame-platformer/archive/master.zip
 
 ### Controller Support
 - Xbox 360 controller
