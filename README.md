@@ -1,4 +1,4 @@
-![Main character](zombie_idle.png)
+![Main character](assets/character/zombie_idle.png)
 ## What You'll Need
 ### Required
 - [Python 3](https://www.python.org/downloads/)
