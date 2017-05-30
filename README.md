@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+![Main character](zombie_idle.png)
+## Dependencies
+### Required
+- [Python 3](https://www.python.org/downloads/)
+- Pygame: `python3 -m pip install pygame`
 
-You can use the [editor on GitHub](https://github.com/Firefox74523/pygame-platformer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Controller Support
+- Xbox 360 controller
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Install
+Simply download the zip, extract it anywhere, and run `game.py` by either doube clicking, or from terminal by `python3 game.py` or `./game.py`.
 
-### Markdown
+## How to play
+### Objective
+Clear each level by gathering coins, killing enemies by jumping on them, and reaching the flag at the end.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Controls
+#### Keyboard
+- A: Move left
+- D: Move right
+- Space: Jump
+- Shift: Sprint
+- M: Mute music
+- P: Pause game
 
-```markdown
-Syntax highlighted code block
+#### Controller
+- A: Jump
+- B: Sprint
+- Start: Pause
+- Left stick: Move left and right
 
-# Header 1
-## Header 2
-### Header 3
+### Items
+- Gold coin: Increases coin point by 1.
+- Bronze coin: Decreases coin point by 5.
+- Star: Temporary invincibility.
+- Blue gem: Adds extra life.
+- Heart: Adds extra heart.
+- Wasp: Getting hit deducts one heart, killing earns 1 generic point.
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Firefox74523/pygame-platformer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Screenshots
+![Screenshot](screenshot1.PNG)
+![Screenshot](screenshot2.PNG)
