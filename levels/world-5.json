@@ -1,0 +1,46 @@
+{
+	"name": "The Moon",
+	"width": 32,
+	"height": 10,
+	"background-color": [130, 182, 255],
+	"background-img": "assets/backgrounds/TheMoon.png",
+	"background-position": "bottom",
+	"background-repeat-x": 1,
+	"background-fill-y": 1,
+	"scenery-img": "assets/backgrounds/TheMoon.png",
+	"scenery-position": "bottom",
+	"scenery-repeat-x": 1,
+	"scenery-fill-y": 1,
+	"music": "assets/sounds/Moon.wav",
+	"start": [4, 8],
+	"gravity": 0.4,
+	"terminal-velocity": 32,
+	"blocks": [[0, 9, "TM"], [1, 9, "TM"], [2, 9, "TM"], [3, 9, "TM"], [4, 9, "TM"],
+	           [5, 9, "TM"], [6, 9, "TM"], [8, 9, "TM"], [9, 9, "TM"],
+						 [10, 9, "TM"], [11, 9, "TM"], [12, 9, "TM"], [13, 9, "TM"], [14, 9, "TM"],
+						 [15, 9, "TM"], [16, 9, "TM"], [17, 9, "TM"], [18, 9, "TM"], [19, 9, "TM"],
+						 [20, 9, "TM"], [23, 9, "TM"], [24, 9, "TM"],
+						 [25, 9, "TM"], [26, 9, "TM"], [27, 9, "TM"], [28, 9, "TM"], [29, 9, "TM"],
+						 [30, 9, "TM"], [31, 9, "TM"],
+
+						 [3, 7, "EL"], [4, 7, "TM"], [5, 7, "ER"],
+
+						 [7, 5, "EL"],
+
+						 [12, 7, "LF"], [14, 5, "LF"],
+
+						 [16, 3, "EL"], [17, 3, "TM"], [18, 3, "TM"], [19, 3, "TM"], [20, 3, "ER"],
+
+						 [24, 8, "TL"], [25, 8, "CN"],
+						 [26, 6, "TP"],  [26, 7, "CN"], [26, 8, "CN"]],
+  "ghosts": [],
+  "monsters": [],
+	"bears": [],
+	"aliens": [[18, 2], [15, 4], [32, 8], [24, 3]],
+  "coins": [[4, 5], [16, 6], [18, 7], [20, 7]],
+	"fakecoins":[[3, 6]],
+	"oneups": [[7, 4]],
+	"hearts": [[18, 2]],
+	"invincestars": [[10, 3]],
+	"flag": [[30, 5], [30, 6], [30, 7], [30, 8]]
+}
